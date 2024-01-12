@@ -3,6 +3,6 @@ on: [push]
 jobs:
  Echo:
   runs-on: ubuntu-latest
-status: 
-- name: echo hello
-  run: echo hello
+  steps: 
+  - name: echo hello
+    run: echo hello
