@@ -1,0 +1,8 @@
+main: This is github action 
+on: [push]
+jobs:
+  Echos:
+    runs-on: ubuntu-latest
+   steps: 
+   name: echo hello
+   run: echo hello 
